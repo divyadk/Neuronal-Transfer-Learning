@@ -1,0 +1,7 @@
+# An Immuno-Inspired Transfer Learning Paradigm
+
+Code notebook for the paper An Immuno-Inspired Transfer Learning Paradigm.
+
+## Abstract
+
+Transfer learning in Artificial Neural Networks (ANN) is performed by transferring some or all the layers of neurons from within an already learned source ANN, to a target ANN which is then made to learn a new domain. Though such transfers are known to accelerate the convergence of the target ANN, there is no hard and fast method to ascertain which of the neurons or layers need to be transferred. While most methods advocate the transfer of complete layers of neurons, this paper describes an Immuno-inspired transfer learning paradigm that aids in ascertaining the pertinent or Hot neurons which when transferred facilitate faster convergence of a target ANN. The method uses the concept of an Idiotypic Network to evolve the temperatures associated with neurons within the various layers of the source ANN. Temperatures of those neurons which contribute more to the learning, increase making them hotter. This paper also presents results obtained from experiments performed on dissimilar datasets using this method, which clearly authenticate its efficacy.
